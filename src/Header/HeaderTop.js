@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
-import {FontSize} from '../Styles/Style'
+import {FontSize} from '../Styles/Main'
 
 export default class HeaderTop extends Component {
     render() {

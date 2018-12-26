@@ -1,1 +1,8 @@
-import {} from ''
+import {FontSize} from './Style';
+
+
+
+export {
+    FontSize,
+
+};
