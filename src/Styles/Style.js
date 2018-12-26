@@ -1,5 +1,6 @@
-export const FontSize={
+export const Fonts = {
   fontWeightBold:{
       fontWeight: 'bold',
   },
+  
 };

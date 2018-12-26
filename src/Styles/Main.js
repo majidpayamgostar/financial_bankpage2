@@ -1,8 +1,6 @@
-import {FontSize} from './Style';
-
-
+import {Fonts} from './Style';
 
 export {
-    FontSize,
+    Fonts,
 
 };

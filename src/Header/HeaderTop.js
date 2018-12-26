@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
-import {FontSize} from '../Styles/Main'
+import {Fonts} from '../Styles/Main'
 
 export default class HeaderTop extends Component {
     render() {
         return (
             <View style={styles.headerTop}>
-                <View style={styles.headerStyle}><Text style={FontSize.fontWeightBold}>Cards</Text></View>
+                <View style={styles.headerStyle}><Text style={Fonts.fontWeightBold}>Cards</Text></View>
                 <View style={styles.imageStyle}>
                     <Image
                         source={require('../image/magnifier.png')}
