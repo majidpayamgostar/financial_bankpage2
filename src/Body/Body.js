@@ -12,7 +12,7 @@ export default class Body extends Component {
 }
 const styles = StyleSheet.create({
     className: {
-        flex: .47,
+        flex: .46,
         backgroundColor:'green'
     }
 });

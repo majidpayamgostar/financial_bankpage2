@@ -1,6 +1,5 @@
-import {Fonts} from './Style';
+import {Styles} from './Style';
 
 export {
-    Fonts,
-
+    Styles,
 };

@@ -1,33 +1,30 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
-import {Fonts} from '../Styles/Main'
 
 export default class HeaderTop extends Component {
     render() {
         return (
-            <View style={styles.headerTop}>
-                <View style={styles.headerStyle}><Text style={Fonts.fontWeightBold}>Cards</Text></View>
-                <View style={styles.imageStyle}>
-                    <Image
-                        source={require('../image/magnifier.png')}
-                    />
-                </View>
+            <View style={styles.headerTitle}>
+                <Text style={{fontSize:20,color:'black',borderBottomColor:'#5245ff',borderBottomWidth: 2,height:44}}>Cards</Text>
+                <Image
+                    style={styles.magnifier}
+                    source={require('../image/magnifier.png')}
+                />
             </View>
         );
     }
 }
 const styles = StyleSheet.create({
-    headerTop: {
-        flex: .14,
-        backgroundColor: 'red',
+    headerTitle:{
+        flex:.10,
         flexDirection: 'row',
-        justifyContent: 'space-around',
-        alignItems: 'center'
+        justifyContent: 'space-between',
+        padding: 13,
+        borderBottomColor: '#e7e7e7',
+        borderBottomWidth: 2,
+        backgroundColor:'#f9fafc'
     },
-    headerStyle: {
-        backgroundColor: 'skyblue'
-    },
-    imageStyle:{
-        backgroundColor:'lightcyan'
+    magnifier:{
+        margin: 8
     }
 });

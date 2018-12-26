@@ -10,7 +10,7 @@ export default class HeaderDown extends Component{
 }
 const styles = StyleSheet.create({
     className: {
-        flex: .20,
+        flex: .16,
         backgroundColor:'wheat',
     }
 });
