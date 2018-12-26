@@ -11,6 +11,6 @@ export default class HeaderDown extends Component{
 const styles = StyleSheet.create({
     className: {
         flex: .20,
-        backgroundColor:'wheat'
+        backgroundColor:'wheat',
     }
 });
