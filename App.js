@@ -4,11 +4,11 @@ import Home from "./src/Home";
 
 
 export default class App extends Component<Props> {
-  render() {
-    return (
-          <Home/>
-    );
-  }
+    render() {
+        return (
+            <Home/>
+        );
+    }
 }
 
 

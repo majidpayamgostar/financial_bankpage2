@@ -21,10 +21,10 @@ export default class HeaderMiddle extends Component {
                         <Text style={styles.textStyle}>****</Text>
                         <Text style={styles.textStyle}>6789</Text>
                     </View>
-                    <View style={[styles.cardDetail,styles.footerText]}>
-                        <Text style={[styles.textStyle,Styles.fontColorGrey]}>VALID</Text>
+                    <View style={[styles.cardDetail, styles.footerText]}>
+                        <Text style={[styles.textStyle, Styles.fontColorGrey]}>VALID</Text>
                         <Text style={styles.textStyle}>09/17</Text>
-                        <Text style={[styles.textStyle,Styles.fontColorGrey]}>EXP</Text>
+                        <Text style={[styles.textStyle, Styles.fontColorGrey]}>EXP</Text>
                         <Text style={styles.textStyle}>12/19</Text>
                     </View>
                 </View>
@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
         width: 300,
         flexDirection: 'row',
         justifyContent: 'space-between',
+        alignItems: 'center'
     },
     imageStyle: {
         width: 70,
@@ -65,10 +66,11 @@ const styles = StyleSheet.create({
         color: 'white',
         marginLeft: 15,
         fontSize: 15,
-        letterSpacing: 2
+        letterSpacing: 2,
+        
     },
-    footerText:{
-        justifyContent:'flex-start',
+    footerText: {
+        justifyContent: 'flex-start',
     }
     
 });

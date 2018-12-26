@@ -8,13 +8,13 @@ export default class HeaderDown extends Component {
                 <View style={styles.headerDownButtons}>
                     <View style={styles.headerDownButton}>
                         <Image
-                            source={require('../image/magnifier.png')}
+                            source={require('../image/alarm.png')}
                         />
                         <Text style={{fontWeight: 'bold'}}>Report Stolen</Text>
                     </View>
                     <View style={styles.headerDownButton}>
                         <Image
-                            source={require('../image/magnifier.png')}
+                            source={require('../image/shield.png')}
                         />
                         <Text style={{fontWeight: 'bold'}}>Change Pin</Text>
                     </View>
@@ -29,7 +29,6 @@ export default class HeaderDown extends Component {
 const styles = StyleSheet.create({
     HeaderDownStyle: {
         flex: .16,
-        // backgroundColor: 'wheat',
     },
     headerDownButtons:{
         flexDirection: 'row',

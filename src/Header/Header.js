@@ -17,7 +17,7 @@ export default class Header extends Component {
 }
 const styles = StyleSheet.create({
     container: {
-        flex: .46,
+        flex: .52,
     },
 
 });
